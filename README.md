@@ -1,6 +1,8 @@
-## React Render In Custom Html Tag
+## Render your React Components directly into custom HTML tags
 
-This is a package that helps you use custom html tags to render your react components. You can apply html attributes to these custom html tags and the attributes will get passed through to your React Component as props.
+This is a package that helps you use custom html tags to render your react components in. 
+
+You can apply html attributes to these custom html tags and the attributes will get passed through to your React Component as props.
 
 
 ## Code Example
