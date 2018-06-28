@@ -1,12 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import renderInCustomHtmlTag from '../../index.js';
 
 class ExampleComponent extends React.Component {
     constructor(props){
         super(props);
     }
-    
 
     render(){
         const props = this.props;

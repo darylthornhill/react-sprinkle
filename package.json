@@ -1,7 +1,7 @@
 {
   "name": "react-render-custom-html-tag",
   "version": "1.0.0",
-  "description": "Render React components in custom html tags, allowing properties from the html tag to be passed into the the React Component as props.",
+  "description": "This is a package that helps you use custom html tags to render your react components. You can apply html attributes to these custom html tags and the attributes will get passed through to your React Component as props.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
