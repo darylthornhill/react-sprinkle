@@ -7,7 +7,7 @@ You can apply html attributes to these custom html tags and the attributes will 
 
 ## Code Example
 
-In Html set up your custom html tag.
+In Html set up your custom html tag. You can call this whatever you like, but in this example we are calling it `custom-htmltag`.
 
 ```html
 <custom-htmltag></custom-htmltag>
