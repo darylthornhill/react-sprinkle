@@ -5,6 +5,26 @@ This is a package that helps you use custom html tags to render your react compo
 You can apply html attributes to these custom html tags and the attributes will get passed through to your React Component as props.
 
 
+## Installation
+
+To install the package:
+
+```bash
+npm install 'react-render-custom-html-tag'
+```
+
+To use package:
+```javascript
+import renderInCustomHtmlTag from 'react-render-custom-html-tag';
+```
+
+The function accepts two parameters: 
+```javascript 
+renderInCustomHtmlTag(Component, 'name-of-custom-component')
+```
+
+See code example for more details.
+
 ## Code Example
 
 In Html set up your custom html tag. You can call this whatever you like, but in this example we are calling it `custom-htmltag`.
@@ -66,27 +86,7 @@ We had a couple of project that we wanted to use react and sprinkle it through a
 
 
 
-## Installation
-
-To install the package:
-
-```bash
-npm install 'react-render-custom-html-tag'
-```
-
-To use package:
-```javascript
-import renderInCustomHtmlTag from 'react-render-custom-html-tag';
-```
-
-The function accepts two parameters: 
-```javascript 
-renderInCustomHtmlTag(Component, 'name-of-custom-component')
-```
-
-See code example for more details.
-
-## Examples
+## Source Examples
 
 To run the example follow below.
 
