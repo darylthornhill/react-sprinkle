@@ -56,7 +56,7 @@ const name = this.props.name; // string
 ```
 
 ```javascript
-const data = this.prop.data; // object
+const data = this.props.data; // object
 ```
 
 
