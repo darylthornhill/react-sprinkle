@@ -15,7 +15,7 @@ In your react, import this package and use it when instantiating your class.
 
 ```jsx
 import React from 'react';
-import renderInCustomHtmlTag from '../../index.js';
+import renderInCustomHtmlTag from 'react-render-custom-html-tag';
 
 class ExampleComponent extends React.Component {
     constructor(props){

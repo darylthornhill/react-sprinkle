@@ -1,6 +1,10 @@
 {
   "name": "react-render-custom-html-tag",
   "version": "1.0.0",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/darylthornhill/react-render-custom-html-tag/"
+  },
   "description": "This is a package that helps you use custom html tags to render your react components. You can apply html attributes to these custom html tags and the attributes will get passed through to your React Component as props.",
   "main": "index.js",
   "scripts": {
