@@ -66,12 +66,27 @@ We had a couple of project that we wanted to use react and sprinkle it through a
 
 ## Installation
 
-(when i get around to it NPM)
-Currently just clone it and use the **index.js**  file in your project
+To install the package:
+
+```bash
+npm install 'react-render-custom-html-tag'
+```
+
+To use package:
+```javascript
+import renderInCustomHtmlTag from 'react-render-custom-html-tag';
+```
+
+The function accepts two parameters: 
+```javascript 
+renderInCustomHtmlTag(Component, 'name')
+```
+
+See code example for more details.
 
 ## Examples
 
-Download the project and change to that directory. Install components.
+To run the example follow below.
 
 ```bash
 npm install
@@ -83,4 +98,4 @@ Run the compiler
 npm run build
 ```
 
-Open up the **example/index.html** file and see how it works.
+Open up the **example/index.html** file in chrome and see how it works.
