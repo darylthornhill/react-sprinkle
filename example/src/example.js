@@ -1,5 +1,7 @@
 import React from 'react';
-import renderInCustomHtmlTag from '../../index.js';
+// import renderInCustomHtmlTag from '../../index.js';
+
+import renderInCustomHtmlTag from 'react-render-custom-html-tag';
 
 class ExampleComponent extends React.Component {
     constructor(props){

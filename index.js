@@ -34,7 +34,9 @@ export default function renderInCustomHtmlTag(WrappedComponent, customHtmlTag){
             props[propName] = value;
         }
 
-        ReactDOM.render(<WrappedComponent {...props} />, element);
+        ReactDOM.render(
+            React.createElement(WrappedComponent, props, null),
+            element);
     });
 
     /**
