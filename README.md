@@ -7,11 +7,13 @@ This is a package that helps you use custom html tags to render your react compo
 
 In Html set up your custom html tag.
 
-```<custom-htmltag></custom-htmltag>```
+```html
+<custom-htmltag></custom-htmltag>
+```
 
 In your react, import this package and use it when instantiating your class. 
 
-```
+```jsx
 import React from 'react';
 import renderInCustomHtmlTag from '../../index.js';
 
@@ -41,13 +43,19 @@ And that should be it. Your React Component should be injected into the page.
 
 On the custom html tag that you create you can also give it attributes that get passed through to the React component as properties, We also parse some of the values as json if possible.
 
-```<custom-htmltag name='Jeff' data='{"someProp":"JSON parsed","value":2}'></custom-htmltag>```
+```html
+<custom-htmltag name='Jeff' data='{"someProp":"JSON parsed","value":2}'></custom-htmltag>
+```
 
 In your React Component you can get access to these by calling your props.
 
-``` const name = this.props.name; // string```
+```javascript
+const name = this.props.name; // string
+```
 
-``` const data = this.prop.data; // object```
+```javascript
+const data = this.prop.data; // object
+```
 
 
 ## Why?
@@ -65,10 +73,14 @@ Currently just clone it and use the **index.js**  file in your project
 
 Download the project and change to that directory. Install components.
 
-```npm install```
+```bash
+npm install
+```
 
 Run the compiler
 
-```npm run build```
+```bash
+npm run build
+```
 
 Open up the **example/index.html** file and see how it works.

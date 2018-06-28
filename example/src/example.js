@@ -28,4 +28,4 @@ class ExampleComponent extends React.Component {
     }
 }
 
-export default renderInCustomHtmlTag(ExampleComponent, 'test-html-component')
+renderInCustomHtmlTag(ExampleComponent, 'test-html-component')
