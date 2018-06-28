@@ -11,7 +11,7 @@ In Html set up your custom html tag.
 <custom-htmltag></custom-htmltag>
 ```
 
-In your react, import this package and use it when instantiating your class. 
+In your react, import this package and use it when instantiating your class. Pass in the component as the first parameter the name of the custom html tag as a string as the second parameter (in this case: `'custom-htmltag'`).
 
 ```jsx
 import React from 'react';
@@ -79,7 +79,7 @@ import renderInCustomHtmlTag from 'react-render-custom-html-tag';
 
 The function accepts two parameters: 
 ```javascript 
-renderInCustomHtmlTag(Component, 'name')
+renderInCustomHtmlTag(Component, 'name-of-custom-component')
 ```
 
 See code example for more details.
