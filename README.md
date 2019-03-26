@@ -9,13 +9,13 @@ You can apply html attributes to these custom html tags and the attributes will 
 To install the package:
 
 ```bash
-npm install react-render-custom-html-tag
+npm install react-sprinkle
 ```
 
 To use package:
 
 ```javascript
-import reactSprinkle from 'react-render-custom-html-tag';
+import reactSprinkle from 'react-sprinkle';
 ```
 
 The function accepts two parameters:
