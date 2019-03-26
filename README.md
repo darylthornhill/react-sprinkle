@@ -38,7 +38,7 @@ In your react, import this package and use it when instantiating your class. Pas
 
 ```jsx
 import React from 'react';
-import reactSprinkle from 'react-render-custom-html-tag';
+import reactSprinkle from 'react-sprinkle';
 
 class ExampleComponent extends React.Component {
     constructor(props){
