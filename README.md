@@ -1,9 +1,8 @@
 ## Render your React Components directly into custom HTML tags
 
-This is a package that helps you use custom html tags to render your react components in. 
+This is a package that helps you 'sprinkle' your react components throughout your project with ease.
 
 You can apply html attributes to these custom html tags and the attributes will get passed through to your React Component as props.
-
 
 ## Installation
 
@@ -14,13 +13,15 @@ npm install react-render-custom-html-tag
 ```
 
 To use package:
+
 ```javascript
-import renderInCustomHtmlTag from 'react-render-custom-html-tag';
+import reactSprinkle from 'react-render-custom-html-tag';
 ```
 
-The function accepts two parameters: 
-```javascript 
-renderInCustomHtmlTag(Component, 'name-of-custom-component')
+The function accepts two parameters:
+
+```javascript
+reactSprinkle(Component, 'name-of-custom-component');
 ```
 
 See code example for more details.
@@ -37,13 +38,13 @@ In your react, import this package and use it when instantiating your class. Pas
 
 ```jsx
 import React from 'react';
-import renderInCustomHtmlTag from 'react-render-custom-html-tag';
+import reactSprinkle from 'react-render-custom-html-tag';
 
 class ExampleComponent extends React.Component {
     constructor(props){
         super(props);
     }
-    
+
 
     render(){
         const props = this.props;
@@ -56,7 +57,7 @@ class ExampleComponent extends React.Component {
     }
 }
 
-renderInCustomHtmlTag(ExampleComponent, 'custom-htmltag')
+reactSprinkle(ExampleComponent, 'custom-htmltag')
 ```
 
 And that should be it. Your React Component should be injected into the page.
@@ -66,7 +67,7 @@ And that should be it. Your React Component should be injected into the page.
 On the custom html tag that you create you can also give it attributes that get passed through to the React component as properties, We also parse some of the values as json if possible.
 
 ```html
-<custom-htmltag name='Jeff' data='{"someProp":"JSON parsed","value":2}'></custom-htmltag>
+<custom-htmltag name="Jeff" data='{"someProp":"JSON parsed","value":2}'></custom-htmltag>
 ```
 
 In your React Component you can get access to these by calling your props.
@@ -79,12 +80,9 @@ const name = this.props.name; // string
 const data = this.props.data; // object
 ```
 
-
 ## Why?
 
 We had a couple of project that we wanted to use react and sprinkle it through a normal html/php file. We found that our js started to fill up with a lot of **ReactDom.Renders**, with some vanilla js having to parse some of the properties that we wanted to pass into those components. So I build this, hopefully it helps some other people out.
-
-
 
 ## Source Examples
 
